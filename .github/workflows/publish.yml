@@ -2,7 +2,7 @@ name: 예약 게시
 
 on:
   schedule:
-    - cron: "7 * * * *"    # 매시 7분: 예약 시각이 지난 릴스 1개 게시
+    - cron: "8 * * * *"    # 매시 7분: 예약 시각이 지난 릴스 1개 게시
   workflow_dispatch:
     inputs:
       mode:
